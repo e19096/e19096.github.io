@@ -94,7 +94,8 @@
 		}
 
 		.container.\37 5\25 {
-			width: 1020px;
+			/*width: 1020px;*/
+			width: 1360px;
 		}
 
 		.container.\35 0\25 {
@@ -120,7 +121,7 @@
 		}
 
 		.container.\37 5\25 {
-			width: 900px;
+			width: 1200px;
 		}
 
 		.container.\35 0\25 {
@@ -146,7 +147,7 @@
 		}
 
 		.container.\37 5\25 {
-			width: 720px;
+			width: 960px;
 		}
 
 		.container.\35 0\25 {
@@ -1941,7 +1942,7 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 		}
 
 		.image img {
@@ -2338,6 +2339,7 @@
 
 			.main.style2.left .content {
 				left: 0;
+				margin-top: 4%;
 			}
 
 			.main.style2.right:before {
@@ -2361,11 +2363,11 @@
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 2em 0 6em 0;
 		}
 
 			.main.style3 .content > header {
-				margin-bottom: 2em;
+				margin-bottom: 1em;
 			}
 
 			.main.style3.primary {
@@ -2921,11 +2923,13 @@
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		/*background: url("images/overlay.png"), url("../../images/two.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 		/*vertical-align: top;*/
+
+		background-color: #383838;
 	}
 
 	/*#one div {
@@ -2943,6 +2947,57 @@
 		height: auto;*/
 	}
 
+	#one .skill-icon {
+		font-size: 95px;
+		padding: 10px;
+		/*margin: 5px;*/
+	}
+
+	.skill-icon:hover {
+		transition: 0.1s;
+	}
+
+	.devicon-javascript-plain:hover {
+		color: #f0db4f;
+	}
+
+	.devicon-react-original-wordmark:hover {
+		color: #61dafb;
+	}
+
+	.devicon-rails-plain-wordmark:hover {
+		color: #a62c46;
+	}
+
+	.devicon-ruby-plain-wordmark:hover {
+		color: #d91404;
+	}
+
+	.devicon-postgresql-plain-wordmark:hover {
+		color: #336791;
+	}
+
+	.devicon-jquery-plain-wordmark:hover {
+		color: #0769ad;
+	}
+
+	.devicon-html5-plain-wordmark:hover {
+		color: #e54d26;
+	}
+
+	.devicon-css3-plain-wordmark:hover {
+		color: #3d8fc6;
+	}
+
+	.devicon-git-plain-wordmark:hover {
+		color: #f34f29;
+	}
+
+	.devicon-amazonwebservices-plain-wordmark:hover {
+		color: #F7A80D;
+	}
+
+
 /* Two */
 
 	#two {
@@ -2959,6 +3014,8 @@
 		display: inline-block;
 		vertical-align: top;
 		padding: 25px;
+		padding-left: 6%;
+		padding-right: 6%;
 		text-align: center;
 	}
 
@@ -2992,6 +3049,11 @@
 		opacity: 1.0;
 	}
 
+	#work {
+		background-color: #f3f3f3;
+		height: 100%;
+	}
+
 	#work .row.images.inactive .image {
 		opacity: 0;
 	}
@@ -3010,6 +3072,14 @@
 
 		#work .row.images.inactive .image.from-bottom {
 			top: 7em;
+		}
+
+		#work .live-link {
+			font-size: 20px;
+		}
+
+		#work .live-link:hover {
+			color: lightgreen;
 		}
 
 /* Contact */
@@ -3332,11 +3402,11 @@
 		/* Main */
 
 			.main.style2 .content {
-				width: 70%;
+				width: 90%;
 			}
 
 			.main.style2.right .content {
-				left: 30%;
+				left: 10%;
 			}
 
 			.main.style2.inactive.left .content {
