@@ -3023,6 +3023,10 @@
 		color: darkgreen;
 	}
 
+	#two .icon {
+		font-size: 22px;
+	}
+
 	#two > div a:hover {
 		color: lightgreen;
 		cursor: pointer;
